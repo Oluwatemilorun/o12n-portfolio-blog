@@ -18,7 +18,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: See My Works
-      link: /api-examples
+      link: "#works"
 
 features:
   - title: EARWAC
