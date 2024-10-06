@@ -9,7 +9,9 @@ categories:
 tags:
  - Typescript
  - Vite
- - Vitepress
+ - Vue
+ - VitePress
+ - Markdown
 ---
 
 # Runtime API Examples

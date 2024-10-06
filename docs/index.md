@@ -49,3 +49,22 @@ features:
     details: A training management platform that enables employers and employees handle all of their training needs conveniently.
 ---
 
+<HomeSectionHeader title="Knowledge Base" subtitle="Learn. Document. Share." class="escape-padding" />
+
+<HomeContent />
+
+<style>
+.escape-padding {
+  margin: 0 -24px;
+}
+@media (min-width: 640px) {
+  .escape-padding {
+    margin: 0 -48px;
+  }
+}
+@media (min-width: 960px) {
+  .escape-padding {
+    padding: 0 -64px;
+  }
+}
+</style>
