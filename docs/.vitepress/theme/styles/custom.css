@@ -21,6 +21,10 @@
   border-radius: 5px;
 }
 
+.VPFeatures .title {
+  display: flex;
+}
+
 @media (min-width: 960px) {
   .VPHome .tagline {
     font-size: 20px;
@@ -100,9 +104,29 @@ mjx-container > svg {
   }
 }
 
+/* home */
 .home-greeting {
   color: var(--vp-c-text-2);
   font-size: 18px;
   line-height: 24px;
   padding-bottom: 12px;
+}
+
+.feature-stack {
+  display: inline-flex;
+  color: var(--vp-c-text-2);
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.feature-stack:before {
+  content: "";
+  display: flex;
+  height: 1px;
+  width: 12px;
+  margin-right: 4px;
+  background-color: var(--vp-c-text-2);
 }
