@@ -7,7 +7,7 @@ export const themeConfig: DefaultTheme.Config = {
   nav, // Nav bar configuration
   // sidebar, // Side bar configuration
 
-  logo: '/logo.png',
+  logo: '/favicon.png',
   siteTitle: "Isaac O12n",
 
   darkModeSwitchLabel: 'Theme',
