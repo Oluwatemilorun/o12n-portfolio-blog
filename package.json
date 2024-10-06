@@ -3,6 +3,7 @@
   "description": "Personal portfolio and knowledge base of Isaac Oluwatemilorun",
   "author": "Isaac Oluwatemilorun",
   "license": "MIT",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs",
