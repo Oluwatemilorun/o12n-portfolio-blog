@@ -20,15 +20,23 @@ const getCategories = (): DefaultTheme.NavItemWithLink[] => {
 
 export const nav: DefaultTheme.Config["nav"] = [
   {
-    text: "Categories",
-    items: getCategories(),
-    activeMatch: '/categories/'
+    text: "Works",
+    link: "#works",
+  },
+  {
+    text: "Knowledge Base",
+    items: [
+      { text: "Posts", link: "/posts", activeMatch: "/posts/" },
+      { text: "Tags & Labels", link: "/tags-and-labels", activeMatch: "/tags-and-labels/" },
+      { text: "Archive", link: "/archive", activeMatch: "/archive/" },
+    ],
+    activeMatch: '/posts/'
   },
   {
     text: "About",
     items: [
       { text: "Me", link: "/about/me" },
-      { text: "Works", link: "/about/works" },
+      { text: "Contact", link: "/about/contact" },
     ],
     activeMatch: "/about/",
   },
