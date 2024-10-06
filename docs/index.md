@@ -21,18 +21,31 @@ hero:
       link: "#works"
 
 features:
-  - title: EARWAC
-    icon:
-      src: /img/projects/earwac.svg
-    details: A GIS web app to show and enhance adaptation and resilience against coastal multi-hazards along the West African coast—Senegal to Cameroun.
-
-  - title: VGCPORA
+  - title: VGCPORA <span class="feature-stack">Mobile</span>
     icon:
       src: /img/projects/vgcpora.png
-    details: Mobile App for the residents of Victoria Garden City (VGC) to manage visitor check-ins, enhance security and simplify bills payments
-  - title: Rates NG
+      wrap: true
+    details: Mobile App for the residents of Victoria Garden City (VGC) to manage visitor check-ins, enhance security and simplify bills payments.
+
+  - title: EARWAC <span class="feature-stack">Backend, DevOps</span>
+    icon:
+      src: /img/projects/earwac.svg
+      wrap: true
+      width: 36px
+    details: A GIS web app to show and enhance adaptation and resilience against coastal multi-hazards along the West African coast—Senegal to Cameroon.
+
+  - title: Rates NG <span class="feature-stack">Backend, DevOps</span>
     icon:
       src: /img/projects/rates.png
-    details: An investment platform that enables users easily compare and invest in a selected fixed income assets at any time
+      wrap: true
+      width: 36px
+    details: An investment platform that enables users easily compare and invest in a selected fixed income assets at any time.
+
+  - title: All Trained Up <span class="feature-stack">Web, Mobile</span>
+    icon:
+      src: /img/projects/alltrainedup.png
+      wrap: true
+      width: 36px
+    details: A training management platform that enables employers and employees handle all of their training needs conveniently.
 ---
 
