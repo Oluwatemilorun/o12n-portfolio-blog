@@ -36,8 +36,8 @@ export const themeConfig: DefaultTheme.Config = {
     authorLink: '/about/me', // The default link to jump to when clicking the author's name
   },
 
-  // Custom extension: Footer configuration
   footer: {
-    copyright: `Copyright © ${new Date().getFullYear()} Isaac Oluwatemilorun`
+    message: 'The contents and posts are licensed under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, <br /> and the underlying <a href="https://github.com/Oluwatemilorun/o12n-portfolio-blog">source codes</a> used to build the site, format, and display the contents are released under the <a href="https://github.com/Oluwatemilorun/o12n-portfolio-blog/blob/main/LICENSE-MIT">MIT License</a>.',
+    copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/Oluwatemilorun">Isaac Oluwatemilorun</a>`,
   }
 }
